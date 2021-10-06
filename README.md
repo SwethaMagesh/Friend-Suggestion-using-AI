@@ -8,6 +8,8 @@ The factors could be built into a likelihood function and a search algorithm cou
 
 [Link to colab](https://colab.research.google.com/drive/1IOgQiJRKYY_BjmmTMtFuqAFrSNwXShP8?usp=sharing)
 
+[DATA spreadsheet](https://docs.google.com/spreadsheets/d/1W7CVlwp7sqb9YnByTjMy6OHff8ceBl_ZxgF2aPvhc88/edit#gid=0)
+
 ## Interesting links
 
 - [Medium Article 1](https://medium.com/@gorerohan15/link-prediction-in-social-networks-599e6d9bed9b)
