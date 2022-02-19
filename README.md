@@ -6,7 +6,43 @@ Accepting friend suggestions would add new edges in the network. There are vario
 
 The factors like Mutual Friends, similar interests, closeness in graph are used to suggest friends to users. The proposed algorithm is MIC (Mutual Friends, Interests, Closeness) Algorithm.
 
-[Link to colab](https://colab.research.google.com/drive/1IOgQiJRKYY_BjmmTMtFuqAFrSNwXShP8?usp=sharing)
+
+## Algorithm and steps
+1. Importing libraries and loading data from csv into python
+2. Preprocessing steps
+    - Preprocess node list(students as nodes)
+    - Helper functions (Roll no, node no and name interconversion)
+    - Preprocess edge list(existing friend structure)
+    - Preprocess interests and languages from the survey data. 
+ 3. Networkx representation of graph
+ 4. Visualisation in networkx
+ 5. MIC ALGORITHM
+    - Mutual friends 
+    - Interest
+    - Location
+    - Language
+    - Final score 
+ 6. Suggest friends for all students
+ 7. Accuracy is tested
+    - Remove some edges and check if they would be suggested
+ 8. Gephi color coded visualisation of BFS and suggestions
+ 9. Future scope
+    - Sparse graph due to data can be made dense
+    - Extension to between departments and for other departments of the college. 
+    
+    
+ ## Images
+
+ 
+ - Gephi color code : **Level 1 (friends already)** - red, **level 2** - green , **level 3** - yellow, **level 4**- blue, **suggested friends** - violet
+ 
+ <img width="473" alt="image" src="https://user-images.githubusercontent.com/43994542/154804779-b5b310ca-efb1-45ab-b0ac-ecc8f4caafc4.png">
+ 
+  - Visualisation in networkx
+ ![image](https://user-images.githubusercontent.com/43994542/154804475-d6314c76-ba48-40d1-a1ee-ebb12e4ba83a.png)
+
+
+[Link to colab](https://colab.research.google.com/drive/1oTWj-OM1v1SF1a-Oz3zjD7AVGrlH1UCH?authuser=1)
 
 [DATA spreadsheet](https://docs.google.com/spreadsheets/d/1W7CVlwp7sqb9YnByTjMy6OHff8ceBl_ZxgF2aPvhc88/edit#gid=0)
 
